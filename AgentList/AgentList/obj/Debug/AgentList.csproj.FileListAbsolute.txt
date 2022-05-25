@@ -1,0 +1,15 @@
+C:\Users\Александр\source\repos\AgentList\AgentList\bin\Debug\AgentList.exe.config
+C:\Users\Александр\source\repos\AgentList\AgentList\bin\Debug\AgentList.exe
+C:\Users\Александр\source\repos\AgentList\AgentList\bin\Debug\AgentList.pdb
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.csprojAssemblyReference.cache
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\MainWindow.g.cs
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\App.g.cs
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList_MarkupCompile.cache
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList_MarkupCompile.lref
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\MainWindow.baml
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.g.resources
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.Properties.Resources.resources
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.csproj.GenerateResource.cache
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.csproj.CoreCompileInputs.cache
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.exe
+C:\Users\Александр\source\repos\AgentList\AgentList\obj\Debug\AgentList.pdb

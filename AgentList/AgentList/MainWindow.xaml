@@ -1,0 +1,69 @@
+﻿<Window x:Class="AgentList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AgentList"
+        mc:Ignorable="d"
+        Title="AgentList" Height="400" Width="750">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--Строка для поиска-->
+        <TextBox Grid.Column="0" Grid.Row="0" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Width="400">Введите для поиска</TextBox>
+        <!--Сортировка-->
+        <ComboBox Name="sort" Text="Сортировка" Grid.Row="0" Grid.Column="1" Width="175" SelectedIndex="0" FontSize="20" VerticalAlignment="Center">
+            <Label>Сортировка</Label>
+            <CheckBox Content="По названию"></CheckBox>
+            <CheckBox Content="По дате добавления"></CheckBox>
+        </ComboBox>
+        <!--Фильтрация-->
+        <ComboBox Name="filtr" Text="Фильтрация" Grid.Row="0" Grid.Column="2" Width="175" SelectedIndex="0" FontSize="20" VerticalAlignment="Center">
+            <Label>Фильтрация</Label>
+            <CheckBox Content="Имя агента"></CheckBox>
+            <CheckBox Content="Фамилия агента"></CheckBox>
+            <CheckBox Content="Номер телефона агента"></CheckBox>
+        </ComboBox>
+        <!--Первый агент-->
+        <Image Grid.ColumnSpan="3" Source="C:\Users\Александр\Desktop\2 поток\Сессия 2\New_image.jpg" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Height="80"></Image>
+        <Label Content="Тип | Наименование агента" Grid.Column="0" Grid.Row="1" Margin="117,0,0,10" FontSize="14"/>
+        <Label Content="10%" Grid.Column="3" Grid.Row="1" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+        <Label Content="10 продаж за год" Grid.Column="0" Grid.Row="1" Margin="117,17,0,10" FontSize="12"/>
+        <Label Content="+7 111 111 11 11"  Grid.Column="0" Grid.Row="1" Margin="117,35,0,10" FontSize="12"/>
+        <Label Content="Приоритетность: 10"  Grid.Column="0" Grid.Row="1" Margin="117,53,0,10" FontSize="12"/>
+        <!--Второй агент-->
+        <Image Grid.ColumnSpan="3" Source="C:\Users\Александр\Desktop\2 поток\Сессия 2\New_image.jpg" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Height="80"></Image>
+        <Label Content="Тип | Наименование агента" Grid.Column="0" Grid.Row="2" Margin="117,0,0,10" FontSize="14"/>
+        <Label Content="10%" Grid.Column="3" Grid.Row="2" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+        <Label Content="10 продаж за год" Grid.Column="0" Grid.Row="2" Margin="117,17,0,10" FontSize="12"/>
+        <Label Content="+7 111 111 11 11"  Grid.Column="0" Grid.Row="2" Margin="117,35,0,10" FontSize="12"/>
+        <Label Content="Приоритетность: 10"  Grid.Column="0" Grid.Row="2" Margin="117,53,0,10" FontSize="12"/>
+        <!--Третий агент-->
+        <Image Grid.ColumnSpan="3" Source="C:\Users\Александр\Desktop\2 поток\Сессия 2\New_image.jpg" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Height="80"></Image>
+        <Label Content="Тип | Наименование агента" Grid.Column="0" Grid.Row="3" Margin="117,0,0,10" FontSize="14"/>
+        <Label Content="10%" Grid.Column="3" Grid.Row="3" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"/>
+        <Label Content="10 продаж за год" Grid.Column="0" Grid.Row="3" Margin="117,17,0,10" FontSize="12"/>
+        <Label Content="+7 111 111 11 11"  Grid.Column="0" Grid.Row="3" Margin="117,35,0,10" FontSize="12"/>
+        <Label Content="Приоритетность: 10"  Grid.Column="0" Grid.Row="3" Margin="117,53,0,10" FontSize="12"/>
+        <Border BorderBrush="#FF34E51B" BorderThickness="1" Margin="0" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid/>
+        </Border>
+
+        <Border BorderBrush="#FF34E51B" BorderThickness="1" Margin="0" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3">
+            <Grid/>
+        </Border>
+
+        <Border BorderBrush="#FF34E51B" BorderThickness="1" Margin="0" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3">
+            <Grid/>
+        </Border>
+    </Grid>
+</Window>
